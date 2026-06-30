@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of Mitta Venkata Ganesh Babu - B.Tech CSE Student, Developer, and Problem Solver. Explore my projects, skills, education, and certifications.">
+    <meta name="keywords" content="Mitta Venkata Ganesh Babu, Portfolio, B.Tech CSE, Web Developer, VRSEC, Software Engineer, SchoolSync">
+    <meta name="author" content="Mitta Venkata Ganesh Babu">
+    <title>Mitta Venkata Ganesh Babu | Personal Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Background Blobs (Rich Aesthetics) -->
+    <div class="bg-blob-container">
+        <div class="bg-blob blob-1"></div>
+        <div class="bg-blob blob-2"></div>
+        <div class="bg-blob blob-3"></div>
+    </div>
+
+    <!-- Sticky Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">GANESH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-2">
+                        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark/light theme">
+                            <i class="fas fa-sun"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-start reveal">
+                    <h5 class="text-uppercase tracking-wider text-muted mb-3" style="letter-spacing: 0.15em; font-size: 0.9rem; font-weight: 600;">Welcome to my digital space</h5>
+                    <h1 class="hero-title">Hey, I'm <br><span class="name">Mitta Venkata Ganesh Babu</span></h1>
+                    <div class="hero-subtitle">
+                        I am a <span class="typed-text"></span><span class="typed-cursor">|</span>
+                    </div>
+                    <p class="lead text-secondary mb-4">
+                        A passionate computer science student dedicated to crafting software solutions that simplify complex problems and make a meaningful difference.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#contact" class="btn btn-custom btn-primary-gradient">Hire Me <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="assets/resume.pdf" class="btn btn-custom btn-outline-custom" download="Mitta_Venkata_Ganesh_Babu_Resume.pdf">
+                            Download Resume <i class="fas fa-download ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-illustration text-center reveal">
+                    <div class="hero-image-wrapper">
+                        <!-- Premium Tech Developer Vector Graphic SVG -->
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#818cf8;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <!-- Circle grid -->
+                            <g fill="rgba(255,255,255,0.15)">
+                                <circle cx="40" cy="40" r="2" />
+                                <circle cx="60" cy="40" r="2" />
+                                <circle cx="80" cy="40" r="2" />
+                                <circle cx="40" cy="60" r="2" />
+                                <circle cx="60" cy="60" r="2" />
+                                <circle cx="80" cy="60" r="2" />
+                                <circle cx="40" cy="80" r="2" />
+                                <circle cx="60" cy="80" r="2" />
+                                <circle cx="80" cy="80" r="2" />
+                            </g>
+                            <!-- Glowing abstract shapes -->
+                            <rect x="50" y="50" width="100" height="100" rx="20" fill="url(#grad1)" opacity="0.8" transform="rotate(15, 100, 100)" />
+                            <rect x="65" y="65" width="70" height="70" rx="15" fill="none" stroke="url(#grad2)" stroke-width="3" opacity="0.9" transform="rotate(-10, 100, 100)" />
+                            <!-- Developer avatar stylized representation -->
+                            <circle cx="100" cy="85" r="22" fill="#ffffff" opacity="0.95" />
+                            <!-- Hair/Glasses outline representation -->
+                            <path d="M85,75 Q100,60 115,75" stroke="#312e81" stroke-width="4" fill="none" stroke-linecap="round" />
+                            <circle cx="93" cy="85" r="4" fill="#312e81" />
+                            <circle cx="107" cy="85" r="4" fill="#312e81" />
+                            <path d="M89,85 L111,85" stroke="#312e81" stroke-width="2" />
+                            <path d="M95,97 Q100,102 105,97" stroke="#312e81" stroke-width="2" fill="none" />
+                            
+                            <path d="M70,140 Q100,120 130,140" fill="#ffffff" opacity="0.9" />
+                            <rect x="90" y="110" width="20" height="15" fill="#e2e8f0" />
+                            
+                            <!-- Floating code snippets representation -->
+                            <g fill="#22d3ee" font-family="Courier, monospace" font-size="10" font-weight="bold">
+                                <text x="25" y="140">&lt;/&gt;</text>
+                                <text x="135" y="55">JS</text>
+                                <text x="145" y="150">{ }</text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-secondary-custom">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 text-center text-lg-start reveal">
+                    <div class="glass-card p-4 text-center">
+                        <div class="d-inline-block p-3 rounded-circle mb-3" style="background: linear-gradient(135deg, rgba(79,70,229,0.1), rgba(124,58,237,0.1));">
+                            <i class="fas fa-user-graduate fa-3x text-primary"></i>
+                        </div>
+                        <h3>Ganesh Babu</h3>
+                        <p class="text-muted">B.Tech Student in Computer Science</p>
+                        <hr class="my-3 opacity-25">
+                        <div class="row g-2 text-start">
+                            <div class="col-6">
+                                <strong class="d-block text-secondary">Location:</strong>
+                                <span class="text-primary font-weight-500">Vijayawada, AP, India</span>
+                            </div>
+                            <div class="col-6">
+                                <strong class="d-block text-secondary">Interests:</strong>
+                                <span class="text-primary font-weight-500">Coding, Photo/Video Editing</span>
+                            </div>
+                            <div class="col-6 mt-2">
+                                <strong class="d-block text-secondary">Languages:</strong>
+                                <span class="text-primary font-weight-500">English, Telugu</span>
+                            </div>
+                            <div class="col-6 mt-2">
+                                <strong class="d-block text-secondary">Instruments:</strong>
+                                <span class="text-primary font-weight-500">Keyboard, Guitar</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 reveal">
+                    <h3 class="mb-3">My Career Objective</h3>
+                    <p class="lead text-secondary">
+                        Create software solutions that simplify complex problems and make a meaningful difference.
+                    </p>
+                    <p class="text-secondary mb-4">
+                        I am currently pursuing my Bachelor of Technology in Computer Science & Engineering at Velagapudi Ramakrishna Siddhartha Engineering College. I'm highly motivated to explore code architectures, solve algorithmic problems, and build modern responsive web designs. I'm also deeply interested in multimedia content creation, which fuels my design sense and attention to detail.
+                    </p>
+                    
+                    <div class="row g-4">
+                        <div class="col-sm-4">
+                            <div class="counter-box glass-card">
+                                <span class="counter-value" data-target="854">0</span>
+                                <span class="text-primary font-weight-bold" style="font-size: 1.25rem;">/ 100</span>
+                                <h6 class="text-muted mt-2">B.Tech CGPA (8.54)</h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="counter-box glass-card">
+                                <span class="counter-value" data-target="93">0</span>
+                                <span class="text-primary font-weight-bold" style="font-size: 1.25rem;">%</span>
+                                <h6 class="text-muted mt-2">Intermediate GPA</h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="counter-box glass-card">
+                                <span class="counter-value" data-target="97">0</span>
+                                <span class="text-primary font-weight-bold" style="font-size: 1.25rem;">%</span>
+                                <h6 class="text-muted mt-2">SSC Percentage</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Technical Skills</h2>
+            <p class="text-center text-muted mb-5 reveal">A summary of my core competencies, programming languages, and tools that I specialize in.</p>
+            
+            <div class="row g-4 skills-container">
+                <div class="col-md-6 reveal">
+                    <div class="glass-card p-4 h-100">
+                        <h4 class="mb-4 text-primary"><i class="fas fa-code me-2"></i>Programming Languages</h4>
+                        
+                        <div class="skill-wrapper">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-wrapper">
+                            <div class="skill-info">
+                                <span>C Programming</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-wrapper">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-wrapper">
+                            <div class="skill-info">
+                                <span>Problem Solving</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 reveal">
+                    <div class="glass-card p-4 h-100">
+                        <h4 class="mb-4 text-primary"><i class="fas fa-laptop-code me-2"></i>Web Development & Tools</h4>
+                        
+                        <div class="skill-wrapper">
+                            <div class="skill-info">
+                                <span>HTML5</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-wrapper">
+                            <div class="skill-info">
+                                <span>CSS3 / Vanilla CSS</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-wrapper">
+                            <div class="skill-info">
+                                <span>JavaScript (Vanilla)</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-wrapper">
+                            <div class="skill-info">
+                                <span>Bootstrap 5</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-wrapper">
+                            <div class="skill-info">
+                                <span>Git & GitHub</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-secondary-custom">
+        <div class="container">
+            <h2 class="section-title reveal">Projects</h2>
+            <p class="text-center text-muted mb-5 reveal">Showcasing web sites and software systems designed for reliability and seamless user experiences.</p>
+            
+            <div class="row g-4">
+                <!-- Project 1: SchoolSync -->
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="project-card glass-card">
+                        <div class="project-img-container">
+                            <!-- Beautiful inline SVG illustration for SchoolSync dashboard -->
+                            <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100%" height="100%" fill="#1e1b4b" />
+                                <defs>
+                                    <linearGradient id="prog-grad" x1="0" y1="0" x2="1" y2="1">
+                                        <stop offset="0%" stop-color="#4f46e5" />
+                                        <stop offset="100%" stop-color="#ec4899" />
+                                    </linearGradient>
+                                </defs>
+                                <!-- Dashboard Mockup -->
+                                <rect x="30" y="30" width="340" height="140" rx="10" fill="#0f172a" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+                                <rect x="30" y="30" width="340" height="25" rx="10" fill="#1e293b" />
+                                <circle cx="45" cy="42" r="4" fill="#ef4444" />
+                                <circle cx="57" cy="42" r="4" fill="#eab308" />
+                                <circle cx="69" cy="42" r="4" fill="#22c55e" />
+                                <text x="175" y="46" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="10" font-weight="bold" text-anchor="middle">SchoolSync Dashboard</text>
+                                
+                                <!-- Inside Dashboard Graphics -->
+                                <rect x="45" y="68" width="80" height="40" rx="5" fill="rgba(79, 70, 229, 0.15)" stroke="#6366f1" stroke-width="1" />
+                                <text x="55" y="83" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="8" font-weight="bold">Attendance</text>
+                                <text x="55" y="98" fill="#22d3ee" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold">98.4%</text>
+                                
+                                <rect x="135" y="68" width="120" height="85" rx="5" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)" />
+                                <!-- Mini Chart representation -->
+                                <path d="M145,130 L165,100 L185,115 L205,85 L225,95 L245,78" fill="none" stroke="url(#prog-grad)" stroke-width="3" stroke-linecap="round" />
+                                <circle cx="245" cy="78" r="4" fill="#ec4899" />
+                                
+                                <rect x="265" y="68" width="90" height="40" rx="5" fill="rgba(34, 197, 94, 0.1)" stroke="#22c55e" stroke-width="1" />
+                                <text x="275" y="83" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="8" font-weight="bold">Grades Average</text>
+                                <text x="275" y="98" fill="#4ade80" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold">A+ (CGPA 9.2)</text>
+                            </svg>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">Vanilla CSS</span>
+                                <span class="tag">Bootstrap 5</span>
+                                <span class="tag">JS</span>
+                            </div>
+                            <h4 class="mb-2">SchoolSync</h4>
+                            <p class="text-secondary mb-4">
+                                A comprehensive, responsive web application designed to synchronize educational management, school schedules, and academic reports seamlessly.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#" class="btn btn-sm btn-outline-custom px-3 py-1"><i class="fab fa-github me-1"></i> Code</a>
+                                <a href="#" class="btn btn-sm btn-primary-gradient px-3 py-1"><i class="fas fa-external-link-alt me-1"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: CodeEditor Lite -->
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="project-card glass-card">
+                        <div class="project-img-container">
+                            <!-- Beautiful inline SVG illustration for CodeEditor Lite -->
+                            <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100%" height="100%" fill="#020617" />
+                                <!-- Editor Windows -->
+                                <rect x="30" y="30" width="340" height="140" rx="8" fill="#0f172a" stroke="rgba(255,255,255,0.1)" />
+                                <rect x="30" y="30" width="340" height="20" rx="8" fill="#1e293b" />
+                                <circle cx="45" cy="40" r="3" fill="#ef4444" />
+                                <circle cx="55" cy="40" r="3" fill="#eab308" />
+                                <circle cx="65" cy="40" r="3" fill="#22c55e" />
+                                <text x="80" y="44" fill="#64748b" font-family="Courier, monospace" font-size="8">index.js</text>
+                                
+                                <g font-family="Courier, monospace" font-size="9" fill="#f8fafc">
+                                    <text x="45" y="70"><tspan fill="#f43f5e">const</tspan> <tspan fill="#60a5fa">developer</tspan> = <tspan fill="#34d399">"Ganesh Babu"</tspan>;</text>
+                                    <text x="45" y="85"><tspan fill="#f43f5e">function</tspan> <tspan fill="#a78bfa">greet</tspan>() {</text>
+                                    <text x="65" y="100"><tspan fill="#eab308">console</tspan>.log(<tspan fill="#34d399">`Hello, World!`</tspan>);</text>
+                                    <text x="45" y="115">}</text>
+                                    <text x="45" y="130"><tspan fill="#a78bfa">greet</tspan>();</text>
+                                    <path d="M45,145 L150,145" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" />
+                                </g>
+                                
+                                <rect x="230" y="60" width="130" height="100" rx="6" fill="#1e293b" opacity="0.9" stroke="#334155" />
+                                <text x="240" y="75" fill="#22c55e" font-family="'Inter', sans-serif" font-size="8" font-weight="bold">> Output Console</text>
+                                <text x="240" y="95" fill="#f8fafc" font-family="Courier, monospace" font-size="10">Hello, World!</text>
+                            </svg>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Web API</span>
+                            </div>
+                            <h4 class="mb-2">CodeEditor Lite</h4>
+                            <p class="text-secondary mb-4">
+                                A web-based visual code workspace with real-time compilation, customizable code layouts, syntax support, and live view rendering.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#" class="btn btn-sm btn-outline-custom px-3 py-1"><i class="fab fa-github me-1"></i> Code</a>
+                                <a href="#" class="btn btn-sm btn-primary-gradient px-3 py-1"><i class="fas fa-external-link-alt me-1"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Personal Portfolio Website -->
+                <div class="col-lg-4 col-md-6 reveal">
+                    <div class="project-card glass-card">
+                        <div class="project-img-container">
+                            <!-- Beautiful inline SVG illustration for Portfolio Site -->
+                            <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100%" height="100%" fill="#111827" />
+                                <circle cx="200" cy="100" r="70" fill="rgba(99, 102, 241, 0.15)" stroke="#6366f1" stroke-width="1" />
+                                <circle cx="200" cy="100" r="50" fill="rgba(167, 139, 250, 0.2)" stroke="#a78bfa" stroke-width="1" />
+                                
+                                <path d="M150,100 L250,100" stroke="#f8fafc" stroke-width="2" />
+                                <path d="M200,50 L200,150" stroke="#f8fafc" stroke-width="2" />
+                                
+                                <polygon points="200,30 208,48 228,48 212,60 218,78 200,66 182,78 188,60 172,48 192,48" fill="#eab308" />
+                                
+                                <circle cx="150" cy="100" r="6" fill="#22d3ee" />
+                                <circle cx="250" cy="100" r="6" fill="#818cf8" />
+                                <circle cx="200" cy="150" r="6" fill="#fb7185" />
+                                
+                                <text x="200" y="105" fill="#f8fafc" font-family="'Outfit', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">MITTA.DEV</text>
+                            </svg>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">Bootstrap 5</span>
+                                <span class="tag">JS</span>
+                            </div>
+                            <h4 class="mb-2">Developer Portfolio</h4>
+                            <p class="text-secondary mb-4">
+                                This premium, fully responsive, glassmorphic portfolio site designed to present education details and certifications with optimized layouts.
+                            </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="#" class="btn btn-sm btn-outline-custom px-3 py-1"><i class="fab fa-github me-1"></i> Code</a>
+                                <a href="#" class="btn btn-sm btn-primary-gradient px-3 py-1"><i class="fas fa-external-link-alt me-1"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Timeline Section -->
+    <section id="education" class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Education</h2>
+            <p class="text-center text-muted mb-5 reveal">A timeline overview of my academic progression and milestones achieved.</p>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-9 reveal">
+                    <div class="timeline">
+                        <!-- Education 1 -->
+                        <div class="timeline-item">
+                            <span class="timeline-date">2022 - Present</span>
+                            <div class="timeline-card glass-card">
+                                <h4>B.Tech in Computer Science & Engineering</h4>
+                                <h5 class="text-primary mt-1 font-weight-500">Velagapudi Ramakrishna Siddhartha Engineering College</h5>
+                                <p class="text-secondary mt-2 mb-0">
+                                    Actively learning core computing concepts, software engineering methodologies, data structures, algorithms, and system design. 
+                                </p>
+                                <div class="mt-3">
+                                    <span class="badge bg-primary-gradient px-3 py-2 rounded-pill font-weight-bold">CGPA: 8.54 / 10.0</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Education 2 -->
+                        <div class="timeline-item">
+                            <span class="timeline-date">2020 - 2022</span>
+                            <div class="timeline-card glass-card">
+                                <h4>Intermediate Education (MPC)</h4>
+                                <h5 class="text-primary mt-1 font-weight-500">Board of Intermediate Education, Andhra Pradesh</h5>
+                                <p class="text-secondary mt-2 mb-0">
+                                    Focused study of Mathematics, Physics, and Chemistry, laying a strong analytical and quantitative foundation for engineering.
+                                </p>
+                                <div class="mt-3">
+                                    <span class="badge bg-primary-gradient px-3 py-2 rounded-pill font-weight-bold">Percentage: 93.1%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Education 3 -->
+                        <div class="timeline-item">
+                            <span class="timeline-date">2019 - 2020</span>
+                            <div class="timeline-card glass-card">
+                                <h4>Secondary School Certificate (SSC)</h4>
+                                <h5 class="text-primary mt-1 font-weight-500">Board of Secondary Education, Andhra Pradesh</h5>
+                                <p class="text-secondary mt-2 mb-0">
+                                    Completed secondary school coursework with core focuses in Mathematics, Science, and Social Studies.
+                                </p>
+                                <div class="mt-3">
+                                    <span class="badge bg-primary-gradient px-3 py-2 rounded-pill font-weight-bold">Percentage: 97%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section-padding bg-secondary-custom">
+        <div class="container">
+            <h2 class="section-title reveal">Certifications</h2>
+            <p class="text-center text-muted mb-5 reveal">Professional credentials and technical specializations that I have earned.</p>
+            
+            <div class="row g-4">
+                <!-- Cert 1 -->
+                <div class="col-md-4 reveal">
+                    <div class="cert-card glass-card">
+                        <div class="cert-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h4 class="mb-2">PCAP – Python Essentials</h4>
+                        <p class="text-muted small mb-3">Python Institute</p>
+                        <p class="text-secondary">
+                            Demonstrates proficiency in Python syntax, programming fundamentals, data structures, and procedural coding techniques.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Cert 2 -->
+                <div class="col-md-4 reveal">
+                    <div class="cert-card glass-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <h4 class="mb-2">CLA – C Programming</h4>
+                        <p class="text-muted small mb-3">C++ Institute</p>
+                        <p class="text-secondary">
+                            Validates comprehensive knowledge of structural C programming languages, arrays, memory management, pointers, and structures.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Cert 3 -->
+                <div class="col-md-4 reveal">
+                    <div class="cert-card glass-card">
+                        <div class="cert-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h4 class="mb-2">Java Programming</h4>
+                        <p class="text-muted small mb-3">Infosys Springboard</p>
+                        <p class="text-secondary">
+                            Earned for mastering Java OOP structures, inheritance, encapsulation, polymorphism, exceptions, and collection architectures.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2 class="section-title reveal">Contact Me</h2>
+            <p class="text-center text-muted mb-5 reveal">Have an opportunity, questions, or want to discuss a project? Let's connect!</p>
+            
+            <div class="row g-5">
+                <!-- Info details -->
+                <div class="col-lg-5 reveal">
+                    <h3 class="mb-4">Get In Touch</h3>
+                    <p class="text-secondary mb-4">
+                        Feel free to contact me via email, phone, or send me a message through the contact form. I will respond to your queries as soon as possible.
+                    </p>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h5>Email Address</h5>
+                            <p><a href="mailto:mittavenkataganeshbabu@gmail.com">mittavenkataganeshbabu@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h5>Phone Number</h5>
+                            <p><a href="tel:+918885328976">+91 88853 28976</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h5>Location</h5>
+                            <p>Vijayawada, Andhra Pradesh, India</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Map Placeholder -->
+                    <div class="map-container mt-4">
+                        <div class="map-placeholder-graphics">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span class="font-weight-bold" style="font-size: 0.95rem; color: var(--text-primary);">Velagapudi Ramakrishna Siddhartha Engineering College</span>
+                            <span class="small text-muted">Vijayawada, Andhra Pradesh, India (Pin: 520007)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact form -->
+                <div class="col-lg-7 reveal">
+                    <div class="contact-form-card glass-card">
+                        <h3 class="mb-4">Send Message</h3>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="formName" class="form-label text-secondary small font-weight-bold">Your Name</label>
+                                    <input type="text" class="form-control" id="formName" placeholder="Ganesh Babu" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="formEmail" class="form-label text-secondary small font-weight-bold">Your Email</label>
+                                    <input type="email" class="form-control" id="formEmail" placeholder="yourname@gmail.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="formSubject" class="form-label text-secondary small font-weight-bold">Subject</label>
+                                    <input type="text" class="form-control" id="formSubject" placeholder="Collaboration / Job Inquiry" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="formMessage" class="form-label text-secondary small font-weight-bold">Message</label>
+                                    <textarea class="form-control" id="formMessage" rows="5" placeholder="Write your message here..." required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-custom btn-primary-gradient w-100">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+                                </div>
+                            </div>
+                            <div id="formStatus" class="alert d-none" role="alert"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-secondary-custom border-top" style="border-color: var(--card-border) !important;">
+        <div class="container text-center">
+            <h3 class="navbar-brand mb-3 d-inline-block">GANESH</h3>
+            <p class="text-secondary mb-4">
+                Thank you for visiting my professional profile. Connect with me on social platforms.
+            </p>
+            
+            <!-- Social links -->
+            <div class="d-flex justify-content-center gap-3 mb-4">
+                <a href="https://github.com" target="_blank" class="contact-icon m-0" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="contact-icon m-0" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com" target="_blank" class="contact-icon m-0" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            
+            <p class="text-muted small mb-0">&copy; 2026 Mitta Venkata Ganesh Babu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button type="button" id="btn-back-to-top" aria-label="Scroll back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 Bundle with Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
